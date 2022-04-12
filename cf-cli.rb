@@ -2,11 +2,12 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class CfCli < Formula
-    desc "The official command line client for Cloud Foundry"
-    homepage "https://docs.cloudfoundry.org/cf-cli"
-    url "https://github.com/wanddynosios/cli/releases/download/v8.3.0/cf-cli_osx_arm"
-    sha256 "6e36830b91153a0ddb77fb61ed0dba891c05247f6fa4b7d4a7de672de0d2e6ae"
-    license "Apache-2.0"
+   desc "The official command line client for Cloud Foundry"
+   homepage "https://docs.cloudfoundry.org/cf-cli"
+   url "https://github.com/cloudfoundry/cli/releases/download/v8.3.0/cf-cli_osx_arm"
+   sha256 "212c50401df758e7b0ce55d762e19c8cea51bb1fb5c28e1eeb8f3f114afdfff0"
+   license "Apache-2.0"
+
   
     # depends_on "cmake" => :build
   
