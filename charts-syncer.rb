@@ -10,6 +10,8 @@ class ChartsSyncer < Formula
   
     # depends_on "cmake" => :build
   
+    depends_on :arch => :arm64
+  
     def install
       bin.install 'charts-syncer'
     end

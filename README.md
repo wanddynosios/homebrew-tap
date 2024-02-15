@@ -3,7 +3,7 @@
 `brew tap wanddynosios/tap`
 
 ## bitnami charts-syncer
-
+`brew install wanddynosios/tap/charts-syncer`
 
 ## cf cli
 
